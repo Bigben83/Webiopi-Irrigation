@@ -1,0 +1,57 @@
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.panel {
+    display: block;
+    border: 2px solid black;
+    width: 450px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.label {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.labelDuration {
+    width: 50px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+button {
+    margin: 5px 5px 5px 5px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.slider {
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+#mode {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.ENABLED {
+    background-color: blue;
+}
+
+.WAITING {
+    background-color: lightblue;
+}
+
+.DISABLED {
+    background-color: black;
+}
+

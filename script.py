@@ -3,7 +3,10 @@ import json
 import time
 import datetime
 import sys
-from webiopi.devices.digital import MCP23017
+## Use below for versions of webiopi before 0.7.0
+##from webiopi.devices.digital import MCP23017
+## Use below for webiopi 0.7.0
+from webiopi.devices.digital.mcp23XXX import MCP23017
 
 if sys.version_info.major >= 3:
 	import configparser as parser
